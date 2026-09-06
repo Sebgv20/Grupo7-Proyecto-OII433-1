@@ -26,6 +26,7 @@
     {"name":"sJumpFall","order":6,"path":"sprites/sJumpFall/sJumpFall.yy",},
     {"name":"sMoon","order":12,"path":"sprites/sMoon/sMoon.yy",},
     {"name":"sPickupStar","order":1,"path":"sprites/sPickupStar/sPickupStar.yy",},
+    {"name":"Sprite28","order":2,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"sSandTiles","order":2,"path":"sprites/sSandTiles/sSandTiles.yy",},
     {"name":"sStar_grass","order":5,"path":"sprites/sStar_grass/sStar_grass.yy",},
     {"name":"sStar_sand","order":11,"path":"sprites/sStar_sand/sStar_sand.yy",},

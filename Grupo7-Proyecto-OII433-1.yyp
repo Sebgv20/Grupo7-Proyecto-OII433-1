@@ -76,6 +76,7 @@
     {"id":{"name":"sJumpFall","path":"sprites/sJumpFall/sJumpFall.yy",},},
     {"id":{"name":"sMoon","path":"sprites/sMoon/sMoon.yy",},},
     {"id":{"name":"sPickupStar","path":"sprites/sPickupStar/sPickupStar.yy",},},
+    {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},},
     {"id":{"name":"sSandTiles","path":"sprites/sSandTiles/sSandTiles.yy",},},
     {"id":{"name":"sStar_grass","path":"sprites/sStar_grass/sStar_grass.yy",},},
     {"id":{"name":"sStar_sand","path":"sprites/sStar_sand/sStar_sand.yy",},},
