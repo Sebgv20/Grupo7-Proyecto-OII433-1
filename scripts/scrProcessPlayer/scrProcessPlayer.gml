@@ -65,7 +65,7 @@ function scrProcessPlayer() {
 			if((c1 == 1) || (c2 == 1) || (c3 == 1) || (c1 == 3) || (c2 == 3) || (c3 == 3)){
 				// if the tile we are intersecting with cannot be fallen through
 				y = real(y&$ffffffc0);			// move the sprite to the top of the tile
-				sprite_index = choose(sIdle1);	// set the sprite to the idle sprite
+				sprite_index = sIdle1;	// set the sprite to the idle sprite
 				climbing = false;				// stop any climbing
 				jump = false;					// stop any jumping
 				fall = false;					// stop any falling

@@ -4,25 +4,26 @@ map = layer_tilemap_get_id("Collisions");								// this will be the layer we us
 hills = layer_get_all_elements("Hills");								// all the hill sprites
 stars = layer_get_all_elements("Stars");								// all the star sprites
 clouds = layer_get_all_elements("Clouds");								// all the cloud sprites
+global.puntaje = 0;
 
 // change the sprites to sand alternatives
 switch(room){
 	case rSand:															// if we are in the sand room
-		for(i=0;i<array_length_1d(hills);i++){							// loop through all the hill sprites
+		for(i=0;i<array_length(hills);i++){							// loop through all the hill sprites
 			if(layer_sprite_get_sprite(hills[i]) == sBGHills_grass){	// if the sprite is a default grass one
 				layer_sprite_change(hills[i],sBGHills_sand);			// set it to the default sand one
 			} else {													// if its not the default
 				layer_sprite_change(hills[i],sBGHills1_sand);			// set it to the other sand one
 			}
 		}
-		for(i=0;i<array_length_1d(clouds);i++){							// loop through all the cloud sprites
+		for(i=0;i<array_length(clouds);i++){							// loop through all the cloud sprites
 			if(layer_sprite_get_sprite(clouds[i]) == sCloud_grass){		// if the sprite is a default grass one
 				layer_sprite_change(clouds[i],sCloud_sand);				// set it to the default sand one
 			} else {													// if its not the default
 				layer_sprite_change(clouds[i],sCloud1_sand);			// set it to the other sand one
 			}
 		}
-		for(i=0;i<array_length_1d(stars);i++){							// loop through all the star sprites
+		for(i=0;i<array_length(stars);i++){							// loop through all the star sprites
 			layer_sprite_change(stars[i],sStar_sand);					// set them to the sand ones
 		}
 		break;
