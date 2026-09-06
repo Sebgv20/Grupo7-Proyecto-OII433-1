@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrProcessPlayer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrProcessPlayer",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
